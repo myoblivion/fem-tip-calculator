@@ -307,14 +307,14 @@ body {
   
   body main .container .output .output-box .output-result h1 {
     display: inline-block;
-    font-size: 5rem;
+    font-size: 2rem;
     color: #23bea6;
   }
   
   body main .container .output button {
     display: block;
     padding: 0.8em;
-    margin-top: 8em;
+    margin-top: 6em;
     background-color: #0d6468;
     font-family: "Space Mono", monospace;
     font-weight: 700;
