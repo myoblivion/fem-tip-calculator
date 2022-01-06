@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.1;
+    }
+    20% {
+      opacity: 0.2;
+    }
+    30% {
+      opacity: 0.3;
+    }
+    40% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    60% {
+      opacity: 0.6;
+    }
+    70% {
+      opacity: 0.7;
+    }
+    80% {
+      opacity: 0.8;
+    }
+    90% {
+      opacity: 0.9;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+:root {
+    /* font */
+    --spacemono: 'Space Mono', monospace;
+    /* colors */
+    --Verydarkcyan: hsl(183, 100%, 15%);
+    --Darkergrayishcyan: hsl(186, 14%, 43%);
+    --Darkgrayishcyan: hsl(184, 14%, 56%);
+    --Lightgrayishcyan: hsl(185, 41%, 84%);
+    --Lightergrayishcyan: hsl(189, 41%, 97%);
+    --Strongcyan: hsl(172, 67%, 45%);
+    --White: hsl(0, 0%, 100%)
+    
+}
+
+
+body {
+    background-color: var(--Lightgrayishcyan);
+}
+
+
+
+
+@media (max-width: 910px) {
+    body {
+      margin: 0 !important;
+    }
+    main {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    .container {
+      width: 100% !important;
+      padding: 0em !important;
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+          -ms-flex-direction: column !important;
+              flex-direction: column !important;
+    }
+    .container .input-box {
+      padding: 0em !important;
+      width: 85% !important;
+    }
+    .container .input-box .box-input .error {
+      font-size: .6rem !important;
+    }
+    .container .output {
+      margin: 1em !important;
+      width: 65% !important;
+    }
+    .container button {
+      margin-top: 1em !important;
+    }
+  }
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
